@@ -5,10 +5,16 @@ const Container = styled('section', {
   padding: 'clamp(10px, 4vw, 100px)',
 })
 
+const Title = styled('h1', {
+
+})
+
 export default function About() {
   return (
     <Container>
-      Titl
+      <Title>
+        
+      </Title>
     </Container>
   )
 }
