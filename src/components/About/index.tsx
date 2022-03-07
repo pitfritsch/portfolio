@@ -13,8 +13,10 @@ const Title = styled('h1', {
   fontFamily: `'Oswald', sans-serif`,
   textTransform: 'uppercase',
   fontSize: 'clamp(1rem, 0.75rem + 1vw, 2rem)',
-  letterSpacing: 'clamp(0.3rem, 0.3rem + 1vw, 2rem)'
+  letterSpacing: 'clamp(0.3rem, 0.3rem + 1vw, 2rem)',
+  boxShadow: '5px 5px 5px -3px #00000082'
 })
+
 const Description = styled('p', {
   color: '#3e3e3e',
   fontFamily: `'Noto Serif', serif`,
