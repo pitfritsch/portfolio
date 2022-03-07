@@ -9,7 +9,7 @@ const SubTitle = styled('h3', {
   fontFamily: `'Noto Serif', serif`,
   color: 'white',
   textTransform: 'uppercase',
-  background: 'linear-gradient(45deg, #004eff, transparent)',
+  background: 'linear-gradient(45deg, #3e3e3e, transparent)',
   padding: '2px 15px',
   borderRadius: '2px 10px 10px 2px',
   fontSize: 'clamp(1rem, 0.50rem + 1vw, 2rem)',
