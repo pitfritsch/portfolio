@@ -1,13 +1,15 @@
 import { styled } from '@stitches/react'
 import React from 'react'
 
-const Container = styled('section', {
-  padding: 'clamp(10px, 4vw, 100px)',
-  maxWidth: '1000px',
-  margin: 'auto'
+export const WhiteContainer = styled('section', {
+  padding: 'clamp(10px, 4vw, 100px) clamp(10px, 20vw, 20vw)',
+  margin: 'auto',
+  '@media (orientation: portrait)': {
+    padding: '10px'
+  }
 })
 
-const Title = styled('h1', {
+export const TitleAsTag = styled('h1', {
   backgroundColor: '#3e3e3e',
   padding: '10px 50px',
   color: 'white',
@@ -15,7 +17,7 @@ const Title = styled('h1', {
   fontFamily: `'Oswald', sans-serif`,
   textTransform: 'uppercase',
   fontSize: 'clamp(1rem, 0.75rem + 1vw, 2rem)',
-  letterSpacing: 'clamp(0.3rem, 0.3rem + 1vw, 2rem)',
+  letterSpacing: 'clamp(0.3rem, 1vw, 2rem)',
   boxShadow: '5px 5px 5px -3px #00000082'
 })
 
@@ -28,10 +30,10 @@ const Description = styled('p', {
 
 export default function About() {
   return (
-    <Container>
-      <Title>
+    <WhiteContainer>
+      <TitleAsTag>
         About me
-      </Title>
+      </TitleAsTag>
       <Description>
         I'm a front-end developer specialized on React.Js, I have at least 3 years of practical experience on big projects, like the internal system of the Unimed Vale do Caí, sales portal of La Moda, etc.
       </Description>
@@ -41,6 +43,6 @@ export default function About() {
       <Description>
       It's easy for me to integrate into new teams and projects, as well as learn new technologies and frameworks.
       </Description>
-    </Container>
+    </WhiteContainer>
   )
 }

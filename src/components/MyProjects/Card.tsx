@@ -4,9 +4,10 @@ import React from 'react'
 interface CardProps {
   title: string
   subtitle: string
+  href?: string
 }
 
-const Container = styled('div', {
+const Container = styled('a', {
   padding: '20px',
   background: 'white',
   borderRadius: '20px'
@@ -28,9 +29,9 @@ const Subtitle = styled('p', {
   textAlign: 'center',
 })
 
-export default function Card({ title, subtitle }: CardProps) {
+export default function Card({ title, subtitle, href }: CardProps) {
   return (
-    <Container>
+    <Container href={href} target={'_blank'}>
       <Title>{title}</Title>
       <Subtitle>{subtitle}</Subtitle>
     </Container>
