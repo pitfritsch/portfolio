@@ -7,7 +7,7 @@ interface ProjectProps {
 }
 
 const Card = styled('a', {
-  backgroundColor: '#f7f8fb',
+  backgroundColor: 'rgb(243 243 243)',
   color: '#3e3e3e',
   padding: '20px',
   borderRadius: '5px',
