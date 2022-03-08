@@ -4,6 +4,8 @@ export default function Document() {
   return (
     <Html>
       <Head key={'head'}>
+        <title>Protfolio | Pedro Fritsch</title>
+        <link rel="shortcut icon" href="/favicon.svg" />
         <link
           key={'oswald'}
           href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Passion+One&display=swap"
