@@ -24,7 +24,7 @@ const Title = styled('h3', {
 
 const Subtitle = styled('p', {
   color: '#3e3e3e',
-  fontFamily: `'Noto Serif', serif`,
+  fontFamily: `'Merriweather', serif`,
   fontSize: 'clamp(1rem, 0.4rem + 1vw, 2rem)',
   textAlign: 'center',
 })

@@ -23,7 +23,7 @@ export const TitleAsTag = styled('h1', {
 
 const Description = styled('p', {
   color: '#3e3e3e',
-  fontFamily: `'Noto Serif', serif`,
+  fontFamily: `'Merriweather', serif`,
   fontSize: 'clamp(1rem, 0.4rem + 1vw, 2rem)',
   textIndent: 'clamp(1rem, 1rem + 1vw, 2rem)'
 })

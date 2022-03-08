@@ -9,11 +9,7 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Passion+One&display=swap"
           rel="stylesheet"
         />
-        <link
-          key={'noto-serif'}
-          href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap"
-          rel="stylesheet"
-        />
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet"/>
       </Head>
       <body key='body'>
         <Main key='main'/>
