@@ -8,6 +8,11 @@ const Container = styled('section', {
   backgroundColor: '#2b2254'
 })
 
+const Content = styled('section', {
+  maxWidth: '1000px',
+  margin: 'auto'
+})
+
 const Title = styled('h1', {
   fontFamily: `'Oswald', sans-serif`,
   textTransform: 'uppercase',
@@ -30,27 +35,29 @@ const Grid = styled('div', {
 export default function MyProjects() {
   return (
     <Container>
-      <Title>
-        My Projects
-      </Title>
-      <Grid>
-        <Card
-          title='LaModa'
-          subtitle='I developed the new React version of the LaModa sales portal from scratch'
-        />
-        <Card
-          title='AxonHub'
-          subtitle='Maintenance and addition of new features'
-        />
-        <Card
-          title='CheersTravel'
-          subtitle='Development of the event scheduling and control app from scratch'
-        />
-        <Card
-          title='QuickMenu'
-          subtitle='Development of the digital menu app from scratch'
-        />
-      </Grid>
+      <Content>
+        <Title>
+          My Projects
+        </Title>
+        <Grid>
+          <Card
+            title='LaModa'
+            subtitle='I developed the new React version of the LaModa sales portal from scratch'
+          />
+          <Card
+            title='AxonHub'
+            subtitle='Maintenance and addition of new features'
+          />
+          <Card
+            title='CheersTravel'
+            subtitle='Development of the event scheduling and control app from scratch'
+          />
+          <Card
+            title='QuickMenu'
+            subtitle='Development of the digital menu app from scratch'
+          />
+        </Grid>
+      </Content>
     </Container>
   )
 }

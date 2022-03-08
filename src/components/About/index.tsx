@@ -3,6 +3,8 @@ import React from 'react'
 
 const Container = styled('section', {
   padding: 'clamp(10px, 4vw, 100px)',
+  maxWidth: '1000px',
+  margin: 'auto'
 })
 
 const Title = styled('h1', {
